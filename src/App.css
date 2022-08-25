@@ -1,38 +1,177 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+*{
+  margin: 0%;
+  padding: 0%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper{
+  width: 100%;
+  background: linear-gradient(rgba(145, 150, 219, 0.667),rgb(90, 91, 121));
+}
+
+.nav{
+  width: 100%;
+  height: 150px;
+  background: rgb(36, 28, 54);
+  display: inline-flex;
+  margin: 0%;
+  padding: 0;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+        
+#searchBar input{
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 0ch;
+}
+
+#searchBar{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  margin-top: 60px;
+  margin-left: 25%;
+}
+
+#searchBar button{
+  width: 30px;
+  height: 34px;
+  border-left: 1px groove black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#searchBar button:hover{
+  background-color: rgb(141, 132, 121);
+}
+
+
+.addcontac button:hover{
+  background-color: rgb(161, 207, 207);
+}
+
+.body{
+  width: 100%;
+  height: 1000px;
+  text-align: left;
+  margin-left: 0px;
+  display: inline;
+}
+
+
+.displayData h1{
+  margin-left: 100px;
+  display: inline-block;
+	width: 200px;
+  color: rgb(21, 24, 23);
+  margin-bottom: 10px;
+}
+
+.displayData h2{
+  color: rgb(27, 24, 31);
+  margin-left: 100px;
+  display: inline-block;
+	width: 200px;
+}
+
+.displayData input{
+  color: rgb(27, 24, 31);
+  margin-left: 80px;
+  display: inline-block;
+	width: 200px;
+  background-color: rgba(145, 150, 219, 0.667);
+  border: 0.5px solid cadetblue;
+  text-align: center;
+}
+
+
+
+.displayData button{
+  padding: 5px;
+  border-radius: 5px  ;
+  border: 1px solid burlywood;
+  font-weight: 100px;
+  color: antiquewhite; 
+  font-size: large; 
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.displayData{
+  float: left;
+  width: 77%;
+}
+
+#delete{
+  margin-left: 10px;
+  background-color: rgba(165, 31, 31, 0.767);
+}
+
+#edit{
+  background-color: green;
+  width: auto;
+}
+
+.edit{
+  width: 100px;
+}
+
+.displayData button:hover{
+  color: rgb(48, 51, 56);
+}
+
+.addcontac{
+  float: right;
+  width: 23%;
+  background-color: rgb(67, 53, 100);
+  display: block;
+  text-align: center;
+  height: 1000px;
+  position: relative;
+  padding-top: 0px;
+}
+
+.addcontac input{
+  width: 250px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: medium;
+}
+
+.addcontac h2{
+  padding: 10px;
+  color: rgb(124, 219, 156);
+  background-color: rgb(23, 49, 47);
+}
+
+#sbtn button{
+  background-color: rgb(49, 117, 185);
+  padding: 5px;
+  border-radius: 5px  ;
+  border: 1px solid rgb(0, 0, 0);
+  font-weight: 100px;
+  color: rgb(255, 255, 255); 
+  font-size: large; 
+  margin-top: 10px;
+}
+
+#sbtn button:hover{
+  color: rgb(36, 49, 45);
 }
